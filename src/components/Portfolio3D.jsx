@@ -6,21 +6,21 @@ const Portfolio3D = () => {
       id: 1,
       title: "Immersive 3D Website",
       description: "Built using Three.js, React Three Fiber, and GSAP animations.",
-      image: "https://images.unsplash.com/photo-1612831661785-2b7b29ea494c", // Example
+      image: "https://i.ibb.co.com/LdQWr94Y/3D-1.png", 
       link: "#"
     },
     {
       id: 2,
       title: "Interactive Product Showcase",
       description: "Created a 360° product viewer with real-time lighting effects.",
-      image: "https://images.unsplash.com/photo-1604079628040-9434c58ed9be",
+      image: "https://i.ibb.co.com/XrrpFk33/3ds-1.webp",
       link: "#"
     },
     {
       id: 3,
       title: "Virtual Art Gallery",
       description: "Designed a VR-ready virtual exhibition space using WebGL.",
-      image: "https://images.unsplash.com/photo-1611095973515-0d71c7a05ef7",
+      image: "https://i.ibb.co.com/1Yc2rtL1/3ds.webp",
       link: "#"
     }
   ];
