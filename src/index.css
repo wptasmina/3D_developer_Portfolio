@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+:root {
+    --gradient: radial-gradient(circle, #e5e5e5 0%, #fff 100%)
+}
+
+html,
+body{
+    min-width: 100vh;
+    overflow-x: hidden;
+    background-color: black;
+    color: #e7e7e7;
+    scroll-behavior: smooth;
+    line-height: 1.5;
+}
+
+@theme {
+    --color-white-50: #d9ecff;
+    --color-black-50: #acac21;
+    --color-black-100: #0e0e10;
+    --color-blue-50: #839cb5;
+    --color-blue-100: #2d2d38;
+}
+
+/* Gradient And */
+
+.image-gradient{
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0.5;
+    z-index: -1;
+}
+.layer-blur{
+    height: 0;
+    width: 30rem;
+    position: absolute;
+    top: 20%;
+    right: 0;
+    box-shadow: 0 0 700px 15px white;
+    rotate: -30deg;
+}
+
+
+/* @layer utilities {
+    .flex-center{
+        @apply flex justify-center items-center
+    }
+}
+
+@layer components {
+    .padding-x{
+        @apply px-0 md:px-10;
+    }
+    .padding-x-lg{
+        @apply px-5 md:px-20;
+    }
+    .section-padding{
+        @apply px-5 md:mt-40 mt-20;
+    }
+}
+
+.card::before{
+    border-radius: 12px;
+    border: 2px solid transparent;
+    background: var(--gradient);
+    background-attachment: fixed;
+    mask: linear-gradient(#000, #000), conic-gradient(
+        from calc((var(--star) - 15) * 1deg),
+        #ffffff01 0deg, white, #ffffff00 100deg
+    );
+    mask-composite: intersect;
+    mask-clip: padding-box border-box ;
+    opacity: 0;
+    transition: 0.5s ease;
+}
+
+.glow{
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    filter: blur(10px);
+    filter: saturate(200);
+}
+
+.card:hover::before {
+    opacity: 1;
+} */
