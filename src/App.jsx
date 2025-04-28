@@ -1,12 +1,13 @@
 import React from 'react'
 import Home from './pages/Home/Home'
+import Navbar from './components/Navbar'
 
 export default function App() {
     return (
         <main>
 
             <div >
-                <h2 className='text-8xl font-bold'>App</h2>
+                <Navbar/>
                 <Home />
             </div>
 
