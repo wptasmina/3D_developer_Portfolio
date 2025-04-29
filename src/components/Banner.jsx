@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Banner() {
     return (
-       <div className='grid grid-cols-2 gap-6'>
+       <div className='grid md:grid-cols-2 grid-cols-1 gap-6'>
          <div className='container flex items-center justify-center min-h-screen flex-col'>
             <div className='content max-w-[40rem] ml-[10%] z-40'>
                 <div className='tag-box relative'>
